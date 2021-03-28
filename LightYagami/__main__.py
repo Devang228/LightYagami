@@ -61,7 +61,7 @@ Here You Can See My Power By Writing /help.
 """
 
 HELP_STRINGS = """
-[Light](https://telegra.ph/file/fb5677bc730649a9ee07a.jpg) Is Here:
+[Ficus](https://telegra.ph/file/fb5677bc730649a9ee07a.jpg) Is Here:
 Here You Can See My Power With These Power 
 I Will Manage Your Group
 And Provide Justice To Your Group
@@ -74,7 +74,7 @@ And Provide Justice To Your Group
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/4911c03742b50ad0d8bf7.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/5eeaa9ef6de925c685b82.jpg"
 LIGHT_IMG = "https://telegra.ph/file/fb5677bc730649a9ee07a.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
