@@ -1,4 +1,4 @@
-import importlib
+ import importlib
 import time
 import re
 from sys import argv
@@ -51,7 +51,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey You {},You Are In Light's Pm
+Hey You {},You Are In Ficus's Pm
 
 Nice To Meet You Dude....
 
@@ -61,7 +61,7 @@ Here You Can See My Power By Writing /help.
 """
 
 HELP_STRINGS = """
-[Light](https://telegra.ph/file/707a516dfc688ebb8c423.mp4) Is Here:
+[Ficus](https://telegra.ph/file/fb5677bc730649a9ee07a.jpg) Is Here:
 Here You Can See My Power With These Power 
 I Will Manage Your Group
 And Provide Justice To Your Group
@@ -74,8 +74,8 @@ And Provide Justice To Your Group
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/4911c03742b50ad0d8bf7.jpg"
-LIGHT_IMG = "https://telegra.ph/file/5580465a8e3c4d51d5c3c.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/5eeaa9ef6de925c685b82.jpg"
+LIGHT_IMG = "https://telegra.ph/file/fb5677bc730649a9ee07a.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 """
@@ -195,7 +195,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="⚖️Add Kira to your group⚖️",
+                            text="🥰Add Ficus to your group🥰",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                      [
@@ -203,14 +203,14 @@ def start(update: Update, context: CallbackContext):
                              text="📢 Support Group",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
-                             text="🔔 Updates Of Light 🔔",
+                             text="🔔 Updates Of Ficus 🔔",
                              url="https://t.me/seedofbots")
                      ],
                     
                     [
                          InlineKeyboardButton(
                              text="❤My God❤",
-                             url="https://t.me/death_note_light_yagami"),
+                             url="https://t.me/Devang_23"),
                          InlineKeyboardButton(
                              text="⌨Repo🖱",
                              url="https://github.com/YashMorya/LightYagami")
