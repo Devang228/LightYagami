@@ -61,7 +61,7 @@ Here You Can See My Power By Writing /help.
 """
 
 HELP_STRINGS = """
-[Aurora❤️](https://telegra.ph/file/707a516dfc688ebb8c423.mp4) Is Here:
+[Aurora❤️](https://telegra.ph/file/3e86bc601cfdf007b9bad.mp4) Is Here:
 Here You Can See My Power With These Power 
 I Will Manage Your Group
 And Provide Justice To Your Group
@@ -74,8 +74,8 @@ And Provide Justice To Your Group
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/4911c03742b50ad0d8bf7.jpg"
-LIGHT_IMG = "https://telegra.ph/file/5580465a8e3c4d51d5c3c.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/af4a999b62fdea047ea08.jpg"
+LIGHT_IMG = "https://telegra.ph/file/3e86bc601cfdf007b9bad.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 """
@@ -195,7 +195,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="⚖️Add Kira to your group⚖️",
+                            text="⚖️Add Aurora to your group⚖️",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                      [
