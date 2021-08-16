@@ -61,7 +61,7 @@ Here You Can See My Power By Writing /help.
 """
 
 HELP_STRINGS = """
-[Light](https://telegra.ph/file/707a516dfc688ebb8c423.mp4) Is Here:
+[Aurora❤️](https://telegra.ph/file/707a516dfc688ebb8c423.mp4) Is Here:
 Here You Can See My Power With These Power 
 I Will Manage Your Group
 And Provide Justice To Your Group
@@ -210,7 +210,7 @@ def start(update: Update, context: CallbackContext):
                     [
                          InlineKeyboardButton(
                              text="❤My God❤",
-                             url="https://t.me/death_note_light_yagami"),
+                             url="https://t.me/sarcastic_soul_23"),
                          InlineKeyboardButton(
                              text="⌨Repo🖱",
                              url="https://github.com/YashMorya/LightYagami")
