@@ -55,9 +55,9 @@ Bold_String = Start_text
 
 
 PM_START_TEXT = """
-Hey You {},You Are In Light's Pm
+Hey You {},You Are In Bad Girl's Pm
 
-Nice To Meet You Dude....
+Nice To Meet You Man....
 
 I am an Anime themed group management bot.
 I am Made To Provide Justice To Your Group.
@@ -65,7 +65,7 @@ Here You Can See My Power By Writing /help.
 """
 
 HELP_STRINGS = """
-[Light](https://telegra.ph/file/707a516dfc688ebb8c423.mp4) Is Here:
+[Bad](https://telegra.ph/file/8e7d2614d73c25e3af947.mp4) Is Here:
 Here You Can See My Power With These Power 
 I Will Manage Your Group
 And Provide Justice To Your Group
@@ -78,8 +78,8 @@ And Provide Justice To Your Group
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/4911c03742b50ad0d8bf7.jpg"
-LIGHT_IMG = "https://telegra.ph/file/5580465a8e3c4d51d5c3c.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/28039d177f1e576a66773.jpg"
+LIGHT_IMG = "https://telegra.ph/file/8e7d2614d73c25e3af947.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 """
@@ -199,7 +199,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="⚖️Add Kira to your group⚖️",
+                            text="⚖️Add Bad Girl to your group⚖️",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                      [
@@ -214,10 +214,10 @@ def start(update: Update, context: CallbackContext):
                     [
                          InlineKeyboardButton(
                              text="❤My God❤",
-                             url="https://t.me/death_note_light_yagami"),
+                             url="https://t.me/bad_girl_xd_20"),
                          InlineKeyboardButton(
                              text="⌨Repo🖱",
-                             url="https://github.com/YashMorya/LightYagami")
+                             url="https://github.com/Devang228/LightYagami")
                      ],[
                         InlineKeyboardButton(
                             text="❗❔Help And Commands❔",
